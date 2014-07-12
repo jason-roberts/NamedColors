@@ -1,0 +1,16 @@
+{
+    "colors": [
+        {
+            "name": "Black", "rgb": "000000"
+        },
+        {
+            "name": "HotPink", "rgb": "FF69B4"
+        },		
+        {
+            "name": "Red", "rgb": "FF0000"
+        },		
+        {
+            "name": "White", "rgb": "FFFFFF"
+        }		
+    ]
+}
