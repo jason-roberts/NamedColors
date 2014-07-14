@@ -10,7 +10,7 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("Black", "000000");
+                return new NamedColor("Black", 0, 0, 0);
             }
         }
 
@@ -21,7 +21,7 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("HotPink", "FF69B4");
+                return new NamedColor("HotPink", 255, 105, 180);
             }
         }
 
@@ -32,7 +32,7 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("Red", "FF0000");
+                return new NamedColor("Red", 255, 0, 0);
             }
         }
 
@@ -43,7 +43,7 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("White", "FFFFFF");
+                return new NamedColor("White", 255, 255, 255);
             }
         }
 
