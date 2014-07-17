@@ -1,0 +1,169 @@
+<NamedColors>
+
+	<NamedColor>
+		<Name>Black</Name>
+		<RGB>000000</RGB>
+		<Emotions>
+			<Emotion>Despair</Emotion>
+			<Emotion>Darkness</Emotion>
+			<Emotion>Exclusive</Emotion>
+			<Emotion>Modern</Emotion>
+			<Emotion>Powerful</Emotion>
+		</Emotions>
+	</NamedColor>
+
+	<NamedColor>
+		<Name>HotPink</Name>
+		<RGB>FF69B4</RGB>
+		<Emotions>
+			<Emotion>Exciting</Emotion>
+			<Emotion>Sexy</Emotion>
+			<Emotion>Fun</Emotion>
+			<Emotion>Vivid</Emotion>
+		</Emotions>
+	</NamedColor>
+
+	<NamedColor>
+		<Name>Red</Name>
+		<RGB>FF0000</RGB>
+		<Emotions>
+			<Emotion>Danger</Emotion>
+			<Emotion>Romance</Emotion>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>White</Name>
+		<RGB>FFFFFF</RGB>
+		<Emotions>
+			<Emotion>Pure</Emotion>
+			<Emotion>Clean</Emotion>
+			<Emotion>Peace</Emotion>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUILightGreen</Name>
+		<RGB>99b433</RGB>
+		<Emotions>			
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIGreen</Name>
+		<RGB>00a300</RGB>
+		<Emotions>			
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIDarkGreen</Name>
+		<RGB>1e7145</RGB>
+		<Emotions>			
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIMagenta</Name>
+		<RGB>ff0097</RGB>
+		<Emotions>		
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIVividPurple</Name>
+		<RGB>9f00a7</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIPurple</Name>
+		<RGB>7e3878</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIPalePurple</Name>
+		<RGB>603cba</RGB>
+		<Emotions>			
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIAlmostBlack</Name>
+		<RGB>1d1d1d</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUITeal</Name>
+		<RGB>00aba9</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIPaleBlue</Name>
+		<RGB>eff4ff</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIBlue</Name>
+		<RGB>2d89ef</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+	<NamedColor>
+		<Name>MetroUIDarkBlue</Name>
+		<RGB>2b5797</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>	
+	
+	<NamedColor>
+		<Name>MetroUIYellow</Name>
+		<RGB>ffc40d</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>	
+	
+	<NamedColor>
+		<Name>MetroUILightOrange</Name>
+		<RGB>e3a21a</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>	
+	
+	<NamedColor>
+		<Name>MetroUIDarkOrange</Name>
+		<RGB>da532c</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>	
+	<NamedColor>
+		<Name>MetroUIBrightRed</Name>
+		<RGB>ee1111</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>	
+	<NamedColor>
+		<Name>MetroUIDarkRed</Name>
+		<RGB>b91d47</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>	
+	<NamedColor>
+		<Name>MetroUIWhite</Name>
+		<RGB>ffffff</RGB>
+		<Emotions>
+		</Emotions>
+	</NamedColor>
+	
+
+</NamedColors>
