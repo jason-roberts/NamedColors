@@ -1,0 +1,154 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Linq" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.IO" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Globalization" #>
+<#@ import namespace="System.Xml.Serialization" #>
+<#@ import namespace="System.IO" #>
+<#@ output extension=".cs" #>
+
+namespace NamedColors
+{
+    public static class NamedColors
+    {
+
+<#
+    var colorsFilePath = this.Host.ResolvePath(@"..\..\..\NamedColorsList.xml");
+
+
+    XmlSerializer serializer = new XmlSerializer(typeof(NamedColors));
+
+    StreamReader reader = new StreamReader(colorsFilePath);
+    NamedColors cols = (NamedColors)serializer.Deserialize(reader);
+    reader.Close();
+
+
+
+    foreach (NamedColorsNamedColor nc in cols.NamedColor)
+    {
+        var name = nc.Name;
+        var rgb = nc.RGB;
+
+        if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(rgb) || rgb.Length != 6)
+        {
+            throw new InvalidOperationException(name + " is invalid");
+        }
+
+        byte r;
+        byte g;
+        byte b;
+
+        try
+        {
+            r = byte.Parse(rgb.Substring(0, 2), NumberStyles.AllowHexSpecifier);
+            g = byte.Parse(rgb.Substring(2, 2), NumberStyles.AllowHexSpecifier);
+            b = byte.Parse(rgb.Substring(4, 2), NumberStyles.AllowHexSpecifier);
+        }
+        catch (Exception ex)
+        {
+            throw new InvalidOperationException("rgb is invalid at for " + name, ex);
+        }
+  
+#>     
+ 
+        public static NamedColor <#= name#>
+        {
+            get
+            {
+                return new NamedColor("<#= name#>", <#= r#>, <#= g#>, <#= b#>);
+            }
+        }
+
+       
+<#
+  
+    }    
+#>
+
+    }
+}
+
+<#+ 
+// paste as xml proxy classes
+
+  /// <remarks/>
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public partial class NamedColors
+    {
+
+        private NamedColorsNamedColor[] namedColorField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("NamedColor")]
+        public NamedColorsNamedColor[] NamedColor
+        {
+            get
+            {
+                return this.namedColorField;
+            }
+            set
+            {
+                this.namedColorField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class NamedColorsNamedColor
+    {
+
+        private string nameField;
+
+        private string rGBField;
+
+        private string[] emotionsField;
+
+        /// <remarks/>
+        public string Name
+        {
+            get
+            {
+                return this.nameField;
+            }
+            set
+            {
+                this.nameField = value;
+            }
+        }
+
+        /// <remarks/>
+        public string RGB
+        {
+            get
+            {
+                return this.rGBField;
+            }
+            set
+            {
+                this.rGBField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayItemAttribute("Emotion", IsNullable = false)]
+        public string[] Emotions
+        {
+            get
+            {
+                return this.emotionsField;
+            }
+            set
+            {
+                this.emotionsField = value;
+            }
+        }
+    }
+
+
+#>

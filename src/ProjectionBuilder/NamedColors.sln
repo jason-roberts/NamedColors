@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedColors", "NamedColors\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C2B07136-4778-470D-96DF-29400757BE5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateProjections", "GenerateProjections\GenerateProjections.csproj", "{039CFDC7-DA4F-4B30-9E2F-96B7E159141C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projections", "Projections", "{9570F5E7-B274-47DF-BAE5-E7C20E4DCA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{C2B07136-4778-470D-96DF-29400757BE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B07136-4778-470D-96DF-29400757BE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B07136-4778-470D-96DF-29400757BE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039CFDC7-DA4F-4B30-9E2F-96B7E159141C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039CFDC7-DA4F-4B30-9E2F-96B7E159141C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039CFDC7-DA4F-4B30-9E2F-96B7E159141C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039CFDC7-DA4F-4B30-9E2F-96B7E159141C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3F94128-46FE-4A12-8F84-38585CE0634E} = {9570F5E7-B274-47DF-BAE5-E7C20E4DCA4E}
 	EndGlobalSection
 EndGlobal
