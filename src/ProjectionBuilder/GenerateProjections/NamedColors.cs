@@ -1,4 +1,9 @@
 ﻿
+
+
+
+
+
 namespace NamedColors
 {
     public static class NamedColors
@@ -10,7 +15,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("Black", 0, 0, 0);
+                return new NamedColor("Black", 
+                                        0, 
+                                        0, 
+                                        0 
+                                      );
             }
         }
 
@@ -21,7 +30,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("HotPink", 255, 105, 180);
+                return new NamedColor("HotPink", 
+                                        255, 
+                                        105, 
+                                        180 
+                                      );
             }
         }
 
@@ -32,7 +45,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("Red", 255, 0, 0);
+                return new NamedColor("Red", 
+                                        255, 
+                                        0, 
+                                        0 
+                                      );
             }
         }
 
@@ -43,7 +60,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("White", 255, 255, 255);
+                return new NamedColor("White", 
+                                        255, 
+                                        255, 
+                                        255 
+                                      );
             }
         }
 
@@ -54,7 +75,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUILightGreen", 153, 180, 51);
+                return new NamedColor("MetroUILightGreen", 
+                                        153, 
+                                        180, 
+                                        51 
+                                      );
             }
         }
 
@@ -65,7 +90,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIGreen", 0, 163, 0);
+                return new NamedColor("MetroUIGreen", 
+                                        0, 
+                                        163, 
+                                        0 
+                                      );
             }
         }
 
@@ -76,7 +105,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIDarkGreen", 30, 113, 69);
+                return new NamedColor("MetroUIDarkGreen", 
+                                        30, 
+                                        113, 
+                                        69 
+                                      );
             }
         }
 
@@ -87,7 +120,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIMagenta", 255, 0, 151);
+                return new NamedColor("MetroUIMagenta", 
+                                        255, 
+                                        0, 
+                                        151 
+                                      );
             }
         }
 
@@ -98,7 +135,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIVividPurple", 159, 0, 167);
+                return new NamedColor("MetroUIVividPurple", 
+                                        159, 
+                                        0, 
+                                        167 
+                                      );
             }
         }
 
@@ -109,7 +150,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIPurple", 126, 56, 120);
+                return new NamedColor("MetroUIPurple", 
+                                        126, 
+                                        56, 
+                                        120 
+                                      );
             }
         }
 
@@ -120,7 +165,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIPalePurple", 96, 60, 186);
+                return new NamedColor("MetroUIPalePurple", 
+                                        96, 
+                                        60, 
+                                        186 
+                                      );
             }
         }
 
@@ -131,7 +180,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIAlmostBlack", 29, 29, 29);
+                return new NamedColor("MetroUIAlmostBlack", 
+                                        29, 
+                                        29, 
+                                        29 
+                                      );
             }
         }
 
@@ -142,7 +195,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUITeal", 0, 171, 169);
+                return new NamedColor("MetroUITeal", 
+                                        0, 
+                                        171, 
+                                        169 
+                                      );
             }
         }
 
@@ -153,7 +210,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIPaleBlue", 239, 244, 255);
+                return new NamedColor("MetroUIPaleBlue", 
+                                        239, 
+                                        244, 
+                                        255 
+                                      );
             }
         }
 
@@ -164,7 +225,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIBlue", 45, 137, 239);
+                return new NamedColor("MetroUIBlue", 
+                                        45, 
+                                        137, 
+                                        239 
+                                      );
             }
         }
 
@@ -175,7 +240,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIDarkBlue", 43, 87, 151);
+                return new NamedColor("MetroUIDarkBlue", 
+                                        43, 
+                                        87, 
+                                        151 
+                                      );
             }
         }
 
@@ -186,7 +255,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIYellow", 255, 196, 13);
+                return new NamedColor("MetroUIYellow", 
+                                        255, 
+                                        196, 
+                                        13 
+                                      );
             }
         }
 
@@ -197,7 +270,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUILightOrange", 227, 162, 26);
+                return new NamedColor("MetroUILightOrange", 
+                                        227, 
+                                        162, 
+                                        26 
+                                      );
             }
         }
 
@@ -208,7 +285,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIDarkOrange", 218, 83, 44);
+                return new NamedColor("MetroUIDarkOrange", 
+                                        218, 
+                                        83, 
+                                        44 
+                                      );
             }
         }
 
@@ -219,7 +300,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIBrightRed", 238, 17, 17);
+                return new NamedColor("MetroUIBrightRed", 
+                                        238, 
+                                        17, 
+                                        17 
+                                      );
             }
         }
 
@@ -230,7 +315,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIDarkRed", 185, 29, 71);
+                return new NamedColor("MetroUIDarkRed", 
+                                        185, 
+                                        29, 
+                                        71 
+                                      );
             }
         }
 
@@ -241,7 +330,11 @@ namespace NamedColors
         {
             get
             {
-                return new NamedColor("MetroUIWhite", 255, 255, 255);
+                return new NamedColor("MetroUIWhite", 
+                                        255, 
+                                        255, 
+                                        255 
+                                      );
             }
         }
 
