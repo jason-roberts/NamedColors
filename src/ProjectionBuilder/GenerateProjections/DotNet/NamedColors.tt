@@ -10,7 +10,7 @@
 <#@ import namespace="System.Xml.Serialization" #>
 <#@ import namespace="System.IO" #>
 <#@ output extension=".cs" #>
-<#@ include file="Base.tt" #>
+<#@ include file="..\Base.tt" #>
 
 namespace NamedColors
 {

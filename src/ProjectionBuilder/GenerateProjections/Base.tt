@@ -16,7 +16,7 @@
 
     NamedColors ParseColorsFile()
     {
-        var colorsFilePath = this.Host.ResolvePath(@"..\..\..\NamedColorsList.xml");
+        var colorsFilePath = this.Host.ResolvePath(@"..\..\..\..\NamedColorsList.xml");
 
 
         XmlSerializer serializer = new XmlSerializer(typeof(NamedColors));
