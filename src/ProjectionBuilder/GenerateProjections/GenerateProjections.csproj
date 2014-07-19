@@ -66,6 +66,15 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NamedColors.cs</LastGenOutput>
     </None>
+    <None Include="Sass\Sass.sccs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sass.tt</DependentUpon>
+    </None>
+    <None Include="Sass\Sass.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Sass.sccs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
