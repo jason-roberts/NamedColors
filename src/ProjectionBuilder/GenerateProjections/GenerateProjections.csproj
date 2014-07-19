@@ -44,7 +44,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Base.tt</DependentUpon>
     </Compile>
-    <Compile Include="NamedColors.cs">
+    <Compile Include="DotNet\NamedColors.cs">
       <DependentUpon>NamedColors.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -62,7 +62,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Base.cs</LastGenOutput>
     </None>
-    <None Include="NamedColors.tt">
+    <None Include="DotNet\NamedColors.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NamedColors.cs</LastGenOutput>
     </None>
