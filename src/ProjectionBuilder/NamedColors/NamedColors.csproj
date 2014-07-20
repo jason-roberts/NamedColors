@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\GenerateProjections\NamedColors.cs">
+    <Compile Include="..\GenerateProjections\DotNet\NamedColors.cs">
       <Link>NamedColors.cs</Link>
     </Compile>
     <Compile Include="NamedColor.cs" />
