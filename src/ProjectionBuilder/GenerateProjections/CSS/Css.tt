@@ -1,0 +1,26 @@
+﻿<#@ assembly name="System" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Linq" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.IO" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Globalization" #>
+<#@ import namespace="System.Xml.Serialization" #>
+<#@ import namespace="System.IO" #>
+<#@ output extension=".css" #>
+<#@ include file="..\Base.tt" #>
+/* Named colors from: https://github.com/jason-roberts/NamedColors */
+<#
+NamedColors cols = ParseColorsFile();
+
+foreach (NamedColorsNamedColor nc in cols.NamedColor)
+{ #>
+.nc-<#= nc.Name#>{
+    color: #<#= nc.RGB #>;
+}
+.nc-bg-<#= nc.Name#>{
+    background-color: #<#= nc.RGB #>;
+}
+<# } #>
+

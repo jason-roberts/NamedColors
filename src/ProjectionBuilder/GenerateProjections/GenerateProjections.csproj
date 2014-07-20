@@ -56,6 +56,11 @@
     <Content Include="..\..\..\NamedColorsList.xml">
       <Link>NamedColorsList.xml</Link>
     </Content>
+    <Content Include="CSS\Css.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Css.tt</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Base.tt">
@@ -66,10 +71,14 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NamedColors.cs</LastGenOutput>
     </None>
+    <None Include="CSS\Css.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Css.css</LastGenOutput>
+    </None>
     <None Include="Sass\Sass.sccs">
+      <DependentUpon>Sass.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Sass.tt</DependentUpon>
     </None>
     <None Include="Sass\Sass.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
