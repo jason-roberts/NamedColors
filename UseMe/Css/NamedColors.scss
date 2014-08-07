@@ -3,6 +3,10 @@
 
 
 /* Named colors from: https://github.com/jason-roberts/NamedColors */
+
+
+/* Define Named colors variables */
+
 $nc-Black: #000000;  
 $nc-HotPink: #FF69B4;  
 $nc-Red: #FF0000;  
@@ -25,4 +29,139 @@ $nc-MetroUIDarkOrange: #da532c;
 $nc-MetroUIBrightRed: #ee1111;  
 $nc-MetroUIDarkRed: #b91d47;  
 $nc-MetroUIWhite: #ffffff;  
+
+
+/* Define Named colors rules */
+.nc-Black{
+    color: $nc-Black;
+}
+.nc-bg-Black{
+    background-color: $nc-Black;
+} 
+.nc-HotPink{
+    color: $nc-HotPink;
+}
+.nc-bg-HotPink{
+    background-color: $nc-HotPink;
+} 
+.nc-Red{
+    color: $nc-Red;
+}
+.nc-bg-Red{
+    background-color: $nc-Red;
+} 
+.nc-White{
+    color: $nc-White;
+}
+.nc-bg-White{
+    background-color: $nc-White;
+} 
+.nc-MetroUILightGreen{
+    color: $nc-MetroUILightGreen;
+}
+.nc-bg-MetroUILightGreen{
+    background-color: $nc-MetroUILightGreen;
+} 
+.nc-MetroUIGreen{
+    color: $nc-MetroUIGreen;
+}
+.nc-bg-MetroUIGreen{
+    background-color: $nc-MetroUIGreen;
+} 
+.nc-MetroUIDarkGreen{
+    color: $nc-MetroUIDarkGreen;
+}
+.nc-bg-MetroUIDarkGreen{
+    background-color: $nc-MetroUIDarkGreen;
+} 
+.nc-MetroUIMagenta{
+    color: $nc-MetroUIMagenta;
+}
+.nc-bg-MetroUIMagenta{
+    background-color: $nc-MetroUIMagenta;
+} 
+.nc-MetroUIVividPurple{
+    color: $nc-MetroUIVividPurple;
+}
+.nc-bg-MetroUIVividPurple{
+    background-color: $nc-MetroUIVividPurple;
+} 
+.nc-MetroUIPurple{
+    color: $nc-MetroUIPurple;
+}
+.nc-bg-MetroUIPurple{
+    background-color: $nc-MetroUIPurple;
+} 
+.nc-MetroUIPalePurple{
+    color: $nc-MetroUIPalePurple;
+}
+.nc-bg-MetroUIPalePurple{
+    background-color: $nc-MetroUIPalePurple;
+} 
+.nc-MetroUIAlmostBlack{
+    color: $nc-MetroUIAlmostBlack;
+}
+.nc-bg-MetroUIAlmostBlack{
+    background-color: $nc-MetroUIAlmostBlack;
+} 
+.nc-MetroUITeal{
+    color: $nc-MetroUITeal;
+}
+.nc-bg-MetroUITeal{
+    background-color: $nc-MetroUITeal;
+} 
+.nc-MetroUIPaleBlue{
+    color: $nc-MetroUIPaleBlue;
+}
+.nc-bg-MetroUIPaleBlue{
+    background-color: $nc-MetroUIPaleBlue;
+} 
+.nc-MetroUIBlue{
+    color: $nc-MetroUIBlue;
+}
+.nc-bg-MetroUIBlue{
+    background-color: $nc-MetroUIBlue;
+} 
+.nc-MetroUIDarkBlue{
+    color: $nc-MetroUIDarkBlue;
+}
+.nc-bg-MetroUIDarkBlue{
+    background-color: $nc-MetroUIDarkBlue;
+} 
+.nc-MetroUIYellow{
+    color: $nc-MetroUIYellow;
+}
+.nc-bg-MetroUIYellow{
+    background-color: $nc-MetroUIYellow;
+} 
+.nc-MetroUILightOrange{
+    color: $nc-MetroUILightOrange;
+}
+.nc-bg-MetroUILightOrange{
+    background-color: $nc-MetroUILightOrange;
+} 
+.nc-MetroUIDarkOrange{
+    color: $nc-MetroUIDarkOrange;
+}
+.nc-bg-MetroUIDarkOrange{
+    background-color: $nc-MetroUIDarkOrange;
+} 
+.nc-MetroUIBrightRed{
+    color: $nc-MetroUIBrightRed;
+}
+.nc-bg-MetroUIBrightRed{
+    background-color: $nc-MetroUIBrightRed;
+} 
+.nc-MetroUIDarkRed{
+    color: $nc-MetroUIDarkRed;
+}
+.nc-bg-MetroUIDarkRed{
+    background-color: $nc-MetroUIDarkRed;
+} 
+.nc-MetroUIWhite{
+    color: $nc-MetroUIWhite;
+}
+.nc-bg-MetroUIWhite{
+    background-color: $nc-MetroUIWhite;
+} 
 

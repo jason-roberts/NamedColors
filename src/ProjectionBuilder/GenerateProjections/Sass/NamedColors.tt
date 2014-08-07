@@ -11,11 +11,28 @@
 <#@ output extension=".scss" #>
 <#@ include file="..\Base.tt" #>
 /* Named colors from: https://github.com/jason-roberts/NamedColors */
+
+
+/* Define Named colors variables */
+
 <#
 NamedColors cols = ParseColorsFile();
 
 foreach (NamedColorsNamedColor nc in cols.NamedColor)
 { #>
 $nc-<#= nc.Name#>: #<#= nc.RGB #>;  
+<# } #>
+
+
+/* Define Named colors rules */
+<#
+foreach (NamedColorsNamedColor nc in cols.NamedColor)
+{ #>
+.nc-<#= nc.Name#>{
+    color: $nc-<#= nc.Name#>;
+}
+.nc-bg-<#= nc.Name#>{
+    background-color: $nc-<#= nc.Name#>;
+} 
 <# } #>
 
