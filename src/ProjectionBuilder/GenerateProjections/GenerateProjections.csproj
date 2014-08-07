@@ -56,10 +56,10 @@
     <Content Include="..\..\..\NamedColorsList.xml">
       <Link>NamedColorsList.xml</Link>
     </Content>
-    <Content Include="CSS\Css.css">
+    <Content Include="CSS\NamedColors.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Css.tt</DependentUpon>
+      <DependentUpon>NamedColors.tt</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -71,18 +71,18 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NamedColors.cs</LastGenOutput>
     </None>
-    <None Include="CSS\Css.tt">
+    <None Include="CSS\NamedColors.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Css.css</LastGenOutput>
+      <LastGenOutput>NamedColors.css</LastGenOutput>
     </None>
-    <None Include="Sass\Sass.sccs">
-      <DependentUpon>Sass.tt</DependentUpon>
+    <None Include="Sass\NamedColors.scss">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>NamedColors.tt</DependentUpon>
     </None>
-    <None Include="Sass\Sass.tt">
+    <None Include="Sass\NamedColors.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Sass.sccs</LastGenOutput>
+      <LastGenOutput>NamedColors.scss</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +95,10 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(ProjectDir)CSS\NamedColors.css $(SolutionDir)..\..\UseMe\Css
+copy $(ProjectDir)Sass\NamedColors.scss $(SolutionDir)..\..\UseMe\Css</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

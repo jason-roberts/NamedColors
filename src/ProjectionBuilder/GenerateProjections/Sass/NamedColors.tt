@@ -8,7 +8,7 @@
 <#@ import namespace="System.Globalization" #>
 <#@ import namespace="System.Xml.Serialization" #>
 <#@ import namespace="System.IO" #>
-<#@ output extension=".sccs" #>
+<#@ output extension=".scss" #>
 <#@ include file="..\Base.tt" #>
 /* Named colors from: https://github.com/jason-roberts/NamedColors */
 <#

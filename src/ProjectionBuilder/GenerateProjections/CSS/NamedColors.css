@@ -1,0 +1,138 @@
+﻿
+
+
+
+/* Named colors from: https://github.com/jason-roberts/NamedColors */
+.nc-Black{
+    color: #000000;
+}
+.nc-bg-Black{
+    background-color: #000000;
+}
+.nc-HotPink{
+    color: #FF69B4;
+}
+.nc-bg-HotPink{
+    background-color: #FF69B4;
+}
+.nc-Red{
+    color: #FF0000;
+}
+.nc-bg-Red{
+    background-color: #FF0000;
+}
+.nc-White{
+    color: #FFFFFF;
+}
+.nc-bg-White{
+    background-color: #FFFFFF;
+}
+.nc-MetroUILightGreen{
+    color: #99b433;
+}
+.nc-bg-MetroUILightGreen{
+    background-color: #99b433;
+}
+.nc-MetroUIGreen{
+    color: #00a300;
+}
+.nc-bg-MetroUIGreen{
+    background-color: #00a300;
+}
+.nc-MetroUIDarkGreen{
+    color: #1e7145;
+}
+.nc-bg-MetroUIDarkGreen{
+    background-color: #1e7145;
+}
+.nc-MetroUIMagenta{
+    color: #ff0097;
+}
+.nc-bg-MetroUIMagenta{
+    background-color: #ff0097;
+}
+.nc-MetroUIVividPurple{
+    color: #9f00a7;
+}
+.nc-bg-MetroUIVividPurple{
+    background-color: #9f00a7;
+}
+.nc-MetroUIPurple{
+    color: #7e3878;
+}
+.nc-bg-MetroUIPurple{
+    background-color: #7e3878;
+}
+.nc-MetroUIPalePurple{
+    color: #603cba;
+}
+.nc-bg-MetroUIPalePurple{
+    background-color: #603cba;
+}
+.nc-MetroUIAlmostBlack{
+    color: #1d1d1d;
+}
+.nc-bg-MetroUIAlmostBlack{
+    background-color: #1d1d1d;
+}
+.nc-MetroUITeal{
+    color: #00aba9;
+}
+.nc-bg-MetroUITeal{
+    background-color: #00aba9;
+}
+.nc-MetroUIPaleBlue{
+    color: #eff4ff;
+}
+.nc-bg-MetroUIPaleBlue{
+    background-color: #eff4ff;
+}
+.nc-MetroUIBlue{
+    color: #2d89ef;
+}
+.nc-bg-MetroUIBlue{
+    background-color: #2d89ef;
+}
+.nc-MetroUIDarkBlue{
+    color: #2b5797;
+}
+.nc-bg-MetroUIDarkBlue{
+    background-color: #2b5797;
+}
+.nc-MetroUIYellow{
+    color: #ffc40d;
+}
+.nc-bg-MetroUIYellow{
+    background-color: #ffc40d;
+}
+.nc-MetroUILightOrange{
+    color: #e3a21a;
+}
+.nc-bg-MetroUILightOrange{
+    background-color: #e3a21a;
+}
+.nc-MetroUIDarkOrange{
+    color: #da532c;
+}
+.nc-bg-MetroUIDarkOrange{
+    background-color: #da532c;
+}
+.nc-MetroUIBrightRed{
+    color: #ee1111;
+}
+.nc-bg-MetroUIBrightRed{
+    background-color: #ee1111;
+}
+.nc-MetroUIDarkRed{
+    color: #b91d47;
+}
+.nc-bg-MetroUIDarkRed{
+    background-color: #b91d47;
+}
+.nc-MetroUIWhite{
+    color: #ffffff;
+}
+.nc-bg-MetroUIWhite{
+    background-color: #ffffff;
+}
+
