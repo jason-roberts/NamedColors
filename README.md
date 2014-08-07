@@ -2,6 +2,8 @@
 
 A collection of named colors with projections to various platforms for easy integration.
 
+Currently a work in progress towards "version 1"
+
 ## Contributing Colors
 
 * Please use Pascal case for color names
