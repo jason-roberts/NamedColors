@@ -11,6 +11,7 @@
     <AssemblyName>GenerateProjections</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>54c363f8</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,6 +76,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NamedColors.css</LastGenOutput>
     </None>
+    <None Include="packages.config" />
     <None Include="Sass\NamedColors.scss">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -99,6 +101,13 @@
     <PostBuildEvent>copy $(ProjectDir)CSS\NamedColors.css $(SolutionDir)..\..\UseMe\Css
 copy $(ProjectDir)Sass\NamedColors.scss $(SolutionDir)..\..\UseMe\Css</PostBuildEvent>
   </PropertyGroup>
+  <Import Project="..\packages\Clarius.TransformOnBuild.1.1.1\build\Clarius.TransformOnBuild.targets" Condition="Exists('..\packages\Clarius.TransformOnBuild.1.1.1\build\Clarius.TransformOnBuild.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Clarius.TransformOnBuild.1.1.1\build\Clarius.TransformOnBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Clarius.TransformOnBuild.1.1.1\build\Clarius.TransformOnBuild.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
