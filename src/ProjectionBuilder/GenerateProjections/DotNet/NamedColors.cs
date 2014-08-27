@@ -339,6 +339,21 @@ namespace NamedColors
         }
 
        
+     
+ 
+        public static NamedColor RebeccaPurple
+        {
+            get
+            {
+                return new NamedColor("RebeccaPurple", 
+                                        102, 
+                                        51, 
+                                        153 
+                                      );
+            }
+        }
+
+       
 
     }
 }

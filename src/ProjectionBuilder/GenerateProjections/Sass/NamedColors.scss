@@ -29,6 +29,7 @@ $nc-MetroUIDarkOrange: #da532c;
 $nc-MetroUIBrightRed: #ee1111;  
 $nc-MetroUIDarkRed: #b91d47;  
 $nc-MetroUIWhite: #ffffff;  
+$nc-RebeccaPurple: #663399;  
 
 
 /* Define Named colors rules */
@@ -163,5 +164,11 @@ $nc-MetroUIWhite: #ffffff;
 }
 .nc-bg-MetroUIWhite{
     background-color: $nc-MetroUIWhite;
+} 
+.nc-RebeccaPurple{
+    color: $nc-RebeccaPurple;
+}
+.nc-bg-RebeccaPurple{
+    background-color: $nc-RebeccaPurple;
 } 
 
