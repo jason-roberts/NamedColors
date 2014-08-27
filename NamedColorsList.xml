@@ -147,24 +147,33 @@
 		<Emotions>
 		</Emotions>
 	</NamedColor>	
-	<NamedColor>
+	
+  <NamedColor>
 		<Name>MetroUIBrightRed</Name>
 		<RGB>ee1111</RGB>
 		<Emotions>
 		</Emotions>
 	</NamedColor>	
-	<NamedColor>
+	
+  <NamedColor>
 		<Name>MetroUIDarkRed</Name>
 		<RGB>b91d47</RGB>
 		<Emotions>
 		</Emotions>
 	</NamedColor>	
-	<NamedColor>
+	
+  <NamedColor>
 		<Name>MetroUIWhite</Name>
 		<RGB>ffffff</RGB>
 		<Emotions>
 		</Emotions>
 	</NamedColor>
-	
+
+  <NamedColor>
+    <Name>RebeccaPurple</Name>
+    <RGB>663399</RGB>
+    <Emotions>
+    </Emotions>
+  </NamedColor>
 
 </NamedColors>
